@@ -1,0 +1,61 @@
+package periodo2;
+
+public class p2e1 {
+    public static void main(String[] args) {
+       int day=2;
+        String dayString;
+
+        switch (day)
+        {
+            case 1:
+               {
+                   dayString = "Lunes";
+                   System.out.print(dayString);
+                   break;
+               }
+            
+            case 2:
+               {
+                  dayString = "Martes";
+                  System.out.print(dayString);
+                   break;
+               } 
+            case 3:
+               {
+                   dayString = "Miercoles";
+                   System.out.print(dayString);
+                   break;
+               }
+            case 4:
+               {
+                   dayString = "Jueves";
+                   System.out.print(dayString);
+                   break;
+               }
+            case 5:
+               {
+                   dayString = "Viernes";
+                   System.out.print(dayString);
+                   break;
+               }
+            case 6:
+               {
+                   dayString = "Sabado";
+                   System.out.print(dayString);
+                   break;
+               }
+            case 7:
+               {
+                   dayString = "Domingo";
+                   System.out.print(dayString);
+                   break;
+               }
+            default:
+                {
+                 System.out.print("Dia invalido");
+                 break;
+               }  
+       }
+        
+   }
+}
