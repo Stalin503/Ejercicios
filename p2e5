@@ -1,0 +1,19 @@
+package periodo2;
+import java.util.Scanner;
+
+public class p1e6 {
+    public static void main(String[] args) {
+
+        System.out.print("p2e5");        
+        Scanner entrada = new Scanner (System.in);
+        int fact=1;
+        int num=0;
+        System.out.print("Introduce numero");
+        num=entrada.nextInt();       
+        for(int ind=1; ind<=num; ind++)
+        {
+            fact*=ind;
+        }  
+         System.out.print("El factorial es: "+fact);        
+    }    
+} 
