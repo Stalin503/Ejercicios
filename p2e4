@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class p2e4{
 
     public static void main(String[] args) {  
-        System.out.print("Unidad2_Semana2_Clase4_Ejercicio1");
+        System.out.print("p2e4")
         int day=5;
         String dayString;
 
