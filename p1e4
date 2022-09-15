@@ -1,0 +1,33 @@
+package periodo1;
+import java.util.Scanner;
+
+public class p1e4 {
+
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner (System.in);
+        
+        System.out.print("p1e4");
+        
+        int numero1;
+        
+         System.out.print("Escriba el primer numero entero:");
+         numero1=entrada.nextInt();
+         
+         if (numero1 >=100)
+        {
+           System.out.print("El numero " +numero1 + "es mayor o igual que 100");    
+        }
+         else if (numero1 >=50)
+        {
+           System.out.print("El numero " +numero1 + "es mayor o igual que 50 pero menor que 100");    
+        }  
+         else if (numero1 >=0)
+        {
+           System.out.print("El numero " +numero1 + "es mayor o igual que 0 pero menor que 100");    
+        } 
+         else 
+        {
+           System.out.print("El numero " +numero1 + "es menor que 0");    
+        }               
+    } 
+} 
