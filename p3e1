@@ -1,0 +1,20 @@
+package periodo3;
+
+import java.util.Scanner;
+public class p3e1 {
+
+    public static void main(String[] args) {
+        Scanner SuS = new Scanner (System.in);
+        int valini;
+        
+        valini=8;
+        
+        System.out.print("Multiplos de 8 hasta 500");
+              
+        while (valini<=500)
+        {
+            System.out.print(valini+"\n");
+            valini=valini+8;
+        }
+    }
+}
