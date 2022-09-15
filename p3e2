@@ -1,0 +1,19 @@
+
+package periodo3;
+import java.util.Scanner;
+
+public class p3e2 {
+    public static void main(String[] args) {
+         Scanner Susa = new Scanner (System.in);
+        int pass;
+     do {
+          System.out.print("Ingrese su pin: \n");
+          pass=Susa.nextInt();
+          
+          if (pass != 1903) 
+              {
+                  System.out.print("La contraseña no es válida \n");
+              }
+     } while (pass != 1908);
+    }
+}
