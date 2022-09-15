@@ -32,7 +32,7 @@ public class p1e3 {
         }
          else
              {
-                 System.out.print("Lo siento corazon, lea por favor");
+                 System.out.print("Losiento");
              }        
     }     
 }
